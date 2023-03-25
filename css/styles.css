@@ -1,0 +1,84 @@
+/*color header: #2B3467
+font-family:    body: raleway
+                h1-h2-h3: Playfar display
+producto-1: background-color: #BAD7E9
+
+
+*/
+
+
+
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3{
+    font-family: 'Playfair Display', serif;
+}
+
+h1{
+    font-size: 3.8rem;
+}
+
+@media (min-width:768px){
+    h1{font-size: 4rem;
+    }
+}
+
+h2{
+    font-size: 3.2rem;
+}
+
+
+@media (min-width:768px){
+    h2{font-size: 5rem;
+    }
+}
+
+h3{
+    font-size: 2.4rem;
+}
+
+@media (min-width:768px){
+    h3{font-size: 3rem;
+    }
+}
+
+h1 span{
+    color:#2B3467;
+}
+
+.mio{
+    color: #2B3467 !important;
+}
+
+.hero{
+    background-image: url(../assets/principal.jpg);
+    height: 25rem;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: none;
+}
+
+@media(min-width:768px){
+    .hero{
+        height: 55rem;
+    }
+}
+
+.pto-1{
+    background-color:#BAD7E9;
+}
+
+@media (min-width: 768px){
+    .producto img{
+        height: 43rem;
+        width: 100%;
+        object-fit: cover;
+    }
+}
