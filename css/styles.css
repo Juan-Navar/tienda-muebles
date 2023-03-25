@@ -71,7 +71,7 @@ h1 span{
     }
 }
 
-.pto-1{
+.pto{
     background-color:#BAD7E9;
 }
 
@@ -81,4 +81,13 @@ h1 span{
         width: 100%;
         object-fit: cover;
     }
+}
+
+.categoria img{
+    transition-property: transform;
+    transition-duration: 0.3s;
+}
+
+.categoria img:hover{
+    transform: scale(1.2);
 }
