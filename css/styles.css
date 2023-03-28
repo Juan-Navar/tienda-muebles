@@ -91,3 +91,7 @@ h1 span{
 .categoria img:hover{
     transform: scale(1.2);
 }
+
+.galeria li a img{
+    margin-bottom: 1rem;
+}
